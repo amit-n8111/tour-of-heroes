@@ -6,7 +6,7 @@ import { HeroResponse } from '../types/hero-response';
 import { MessageService } from './message.service';
 
 const url: string =
-  'https://tour-of-heroes--30-11-22-default-rtdb.firebaseio.com/heroes';
+  'https://tour-of-heroes--30-11-22-default-rtdb.firebaseio.com/heroe';
 
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' }),
